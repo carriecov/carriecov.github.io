@@ -1,0 +1,35 @@
+body {
+	background-image: url ("img_metal.jpg");
+	background-color: #021829;
+	margin: 50px 75px;
+	font-family: "Helvetica-Light"; sans-serif;
+}
+h1 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: lowercase;
+}
+img {
+	max-width: 100%;
+}
+#slogan {
+	color: #ceccd0;
+	font-family: Georgia;
+	font-size: 22px; 
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+}
+.all {
+	color: #ffffff;
+	font-size: 16px; 
+	text-align: justify;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: #87cefa;
+}

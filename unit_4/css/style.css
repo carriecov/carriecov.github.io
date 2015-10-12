@@ -1,0 +1,44 @@
+body {
+	background-image: url ("img_metal.jpg");
+	background-color: #021829;
+	margin: 50px 75px;
+	font-family: 'Merriweather', serif;
+	font-weight: normal;
+	font-size: 16px; 
+}
+h1 {
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+img {
+	max-width: 100%;
+}
+#slogan {
+	color: #ceccd0;
+	font-family: 'Arimo', sans-serif; 
+	font-size: 22px; 
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+.all {
+	color: #ffffff;
+	font-size: 16px; 
+	text-align: justify;
+}
+.bullets {
+	color: #ffffff;
+	font-size: 18px;
+	font-style: italic; 
+	text-align: justify;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: #87cefa;
+}

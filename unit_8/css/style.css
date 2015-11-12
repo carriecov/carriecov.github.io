@@ -1,0 +1,155 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#wrapper {
+	background-color: #ffffff;
+	width: 95%;
+	margin: 0 auto;
+}
+
+header {
+	color: #004977;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 2%;
+}
+
+nav {
+	background-color: #ffffff;
+	font-family: 'Roboto' sans-serif;
+	margin: 1% auto 6% auto;
+}
+
+a {
+	background-color: #ffffff;
+	color: #004977;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: left;
+	width: 14%;
+	padding: 1.25%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #004977;
+	border-radius: 4px;
+	color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #004977;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 1.25em;
+	color: #004977;
+	margin-top: .75em;in-bottom: 1em;
+}
+
+h3 {
+	font-size: .75em;
+	color: rgba(1, 23, 40, 0.45);
+	margin-bottom: 1em;
+}
+
+hr {
+	width: 97%;
+}
+
+.featureimage {
+	width: 100%;
+	padding: 3% 1% 0 2%;
+	margin: 4% auto 0 auto;
+}
+
+.featurestory {
+	border-radius: 4px;
+	background: #ffffff;
+	padding: 1%;
+	margin: auto;
+	width: 96%;
+}
+
+.newsfeed {
+	float: left;
+	border-radius: 4px;
+	background: #ffffff;
+	box-shadow: 4px 4px 20px #DCD8DB;
+	padding: 10px;
+	width: 21%;
+	height: auto;
+	padding: 1%;
+	margin: 1%;
+}
+
+footer {
+	clear:both;
+	border-radius: 4px;
+	background-color: #004977;
+	color: #ffffff;
+	font-weight: 300;
+	text-align: center;
+	padding: 2%;
+	margin: 1%;
+}
+
+@media screen and (max-width: 768px) {
+	.newsfeed {
+		float: none;
+		box-shadow: 2px 2px 20px #DCD8DB;
+		padding: 10px;
+		width: auto;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+
+	nav {
+		width: auto;
+		margin: 0 1% 0 2%;
+	}
+
+	a {
+		background-color: #004977;
+		color: #ffffff;
+		display: block;
+		width: auto;
+		float: none;
+		padding: 1.75%;
+		margin: 0 2% 0 0;
+	}
+
+	a:hover {
+		background-color: #ffffff;
+		border-radius: 0;
+		color: #004977;
+	}
+
+	.featureimage {
+		width: 100%;
+		padding: 0 1% 0 2%;
+		margin: auto;
+	}
+}
+
